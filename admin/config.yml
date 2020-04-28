@@ -2,7 +2,7 @@ backend:
   name: git-gateway
   branch: master 
 media_folder: "/assets/post_img" 
-display_url: https://lbjheiheihei.xyz
+display_url: https://qqyycom.github.io
 collections: 
 - name: "post" 
   label: "发表" 

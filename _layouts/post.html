@@ -41,7 +41,7 @@
     {% endif %}
 
     <article class="markdown-body">
-      {{ page.content }}
+      {{ page.content | page.toc }}
     </article>
 
     {% if site.social-share %}

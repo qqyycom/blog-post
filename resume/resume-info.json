@@ -1,0 +1,114 @@
+{
+  "titleNameMap": {
+    "educationList": "教育背景",
+    "workExpList": "工作经历",
+    "projectList": "项目经历",
+    "skillList": "个人技能",
+    "awardList": "更多信息",
+    "workList": "个人作品",
+    "aboutme": "自我介绍"
+  },
+  "avatar": { "hidden": true },
+  "profile": {
+    "name": "瞿关贸",
+    "email": "qgm1993@gmail.com",
+    "mobile": "18588428926",
+    "github": "",
+    "zhihu": "",
+    "workExpYear": "6年",
+    "workPlace": "",
+    "positionTitle": "Java后台工程师"
+  },
+  "educationList": [
+    {
+      "edu_time": ["2012.09.01", "2016.06.30"],
+      "school": "长江大学",
+      "major": "通信工程",
+      "academic_degree": "本科",
+      "dataIndex": 0
+    }
+  ],
+  "awardList": [],
+  "workExpList": [
+    {
+      "company_name": "真伊科技",
+      "department_name": "",
+      "work_time": ["2020.07"],
+      "work_desc": "1. 参与云平台的架构设计；开发和维护云平台系统功能，编写系统设计和API文档。2. 参与制订开发流程，编码规范和文档规范。3. Code Review",
+      "dataIndex": 0
+    },
+    {
+      "company_name": "深圳来电科技",
+      "department_name": "",
+      "work_time": ["2018.11", "2020.03"],
+      "work_desc": "后台开发。参与开发多类产品：商务管理平台、设备OTA系统等。同时也参与系统的微服务重构工作。",
+      "dataIndex": 1
+    },
+    {
+      "company_name": "深圳四方精创资讯股份有限公司",
+      "department_name": "",
+      "work_time": ["2016.07", "2018.10"],
+      "work_desc": "后台开发。参与中国银行(香港)智慧银行手机app项目，内部工作助手APP项目的开发与维护",
+      "dataIndex": 2
+    }
+  ],
+  "skillList": [
+    {
+      "skill_name": "Java",
+      "skill_desc": "Java\nSpring相关技术栈",
+      "skill_level": 90,
+      "dataIndex": 0
+    },
+    {
+      "skill_name": "MySQL",
+      "skill_level": 80,
+      "dataIndex": 1,
+      "skill_desc": "关系型数据库建模\nMySQL应用开发和优化\nRedis数据模型使用，基于Redis缓存的设计与实现"
+    },
+    {
+      "skill_name": "AWS",
+      "skill_desc": "AWS云计算服务的架构与使用\n",
+      "skill_level": 60,
+      "dataIndex": 3
+    }
+  ],
+  "projectList": [
+    {
+      "project_name": "ZenyiCloud",
+      "project_role": "核心开发",
+      "project_time": "2020.07 - 2023.01",
+      "project_desc": "ZenyiCloud是真伊科技基于AWS云服务架构设计，使用Spring相关技术栈实现的多租户业务平台。目前公司的两个品牌均均接入该系统。主要实现了用户管理，设备管理，设备事件处理，与第三方系统（Amazon Alexa， Google Assistant等）对接等。为APP和设备提供相关服务。",
+      "project_content": "1. 基于AWS SQS/SNS， AWS SES， FIREBASE，AWS OpenSearch设计并实现事件处理系统。 通过配置轻松实现事件的存储与展示，邮件提醒，App推送。同时开发了配套的邮件模板编辑器编辑和管理邮件模板。\n2. 对接Amazon Alexa Skill，实现了通过Alexa语音控制设备。\n3. 用户管理和设备管理相关功能开发和迭代\n4. 通过AWS CloudWatch收集log和metrics分析和修复bug，持续优化，维护项目正常运行",
+      "dataIndex": 0
+    },
+    {
+      "project_name": "来电雷神商务管理系统",
+      "project_role": "模块负责人",
+      "project_time": "2019.05 - 2020.03",
+      "project_desc": "该项目是来电公司商务支撑平台。支持70w商家的业务和2k员工日常工作。主要分为两模块1. 业务模块：负责公司商务签约和客情维护的各个流程建设。2.分账模块：分成方案管理，收入的分帐计算与展示。客情费用支出管理",
+      "project_content": "1. 负责分账模块开发和维护，包括 公关费管理，分成方案管理，设备收入的相关分成计算，各维度数据展示。2. 微服务化改造",
+      "dataIndex": 1
+    },
+    {
+      "project_name": "终端OTA升级管理系统",
+      "project_role": "项目负责人",
+      "project_time": "2018.12 - 2019.04",
+      "project_desc": "负责100W+终端设备的各模块版本管理，根据设备信息筛选相关设备，升降级，升级记录，运行日志的下载和展示。同时提供升级服务给其他系统",
+      "project_content": "1. 汇总设备信息到ElasticSearch， 并提供统一的设备信息筛查接口 2. 解决了重复升级的问题 3. 实现系统相关功能，并维护系统的稳定",
+      "dataIndex": 2
+    },
+    {
+      "project_time": "2017.12 - 2018.09",
+      "project_name": "中国银行(香港)智慧银行手机app",
+      "project_role": "模块负责人",
+      "project_desc": "港中银个人网银手机APP，实现了网上银行的相关功能",
+      "project_content": "完成取票预约申请，优惠服务展示，外币现钞申请等功能。并迭代相关功能",
+      "dataIndex": 3
+    }
+  ],
+  "workList": [],
+  "aboutme": {
+    "aboutme_desc": "🌱后台开发工程师，6年+Java中、大型项目开发经验。熟练掌握Java语言，熟练使用Spring/Springboot，Spring Cloud相关框架技术栈。熟练使用 MySQL，Redis，DynamoDB，ElasticSearch；具备数据库设计能力和优化能力。具备具备分布式微服务系统的设计和实现经验。熟悉基于AWS云计算的架构设计与开发。\n  😈 能力项：沟通协调能力|执行力|责任心\n    "
+  },
+  "theme": { "color": "#2f5785", "tagColor": "#8bc34a" }
+}
